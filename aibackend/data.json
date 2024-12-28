@@ -1,0 +1,19 @@
+[
+    {
+      "employee_id": "E001",
+      "sprint_id": "S001",
+      "story_points_completed": 25,
+      "overtime_hours": 5,
+      "leaves_taken": 1,
+      "sprint_duration_weeks": 2
+    },
+    {
+      "employee_id": "E002",
+      "sprint_id": "S001",
+      "story_points_completed": 20,
+      "overtime_hours": 8,
+      "leaves_taken": 0,
+      "sprint_duration_weeks": 2
+    }
+  ]
+  

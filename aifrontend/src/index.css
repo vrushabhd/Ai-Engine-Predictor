@@ -1,0 +1,76 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #9ec0ff;
+  cursor: not-allowed;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.prediction-card {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e7f3fe;
+  border-radius: 5px;
+  border: 1px solid #bee3f8;
+}
+
+.prediction-text {
+  font-size: 18px;
+  color: #007bff;
+}
